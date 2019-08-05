@@ -1,0 +1,30 @@
+.header{
+	background-image: url(maxresdefault.jpg);;
+	position: relative;
+	width: 100%;
+}
+
+h1{
+	text-align: center;
+	font-size: 90px;
+	font-weight: bold;
+	padding: 90px 0 20px 0; 
+	color: red;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}
+
+h2{
+	text-align: center;
+	font-size: 25px;
+	padding-bottom: 40px;
+	color: red;
+	text-shadow:
+   -1px -1px 0 #000,  
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+}

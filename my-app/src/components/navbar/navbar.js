@@ -1,20 +1,16 @@
-
-//sets up the reusable Navbar component
 import React, { Component } from "react";
 import "./navbar.css";
 
-class navbar extends Component {
-  render() {
-    return (
-      <nav className="navbar navbar-default navbar-fixed-top">
-         <ul>
-          <li className="itemLeft">Test Your Memory</li>
-          <li className="itemCenter"></li>
-          <li className="itemRight">Score: {this.props.score}</li>
-        </ul>
-      </nav>
-    );
-  }
-}
+class Navbar extends Component {
+    render() {
+        return (
+            <div className="nav justify-content-center">
+                <p className="nav-item">
+                    <p>{this.props.isCorrect}</p>
+                </p>   
+            </div>
+        );
+    }
+};
 
-export default navbar;
+export default Navbar;
